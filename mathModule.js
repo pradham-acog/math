@@ -1,18 +1,6 @@
-function add(x, y) {
-  return x + y;
-}
-function substract(x, y) {
-  return x - y;
-}
-function multiply(x, y) {
-  return x * y;
-}
-function divide(x, y) {
-  return x / y;
-}
-
-function squareRoot(x) {
-  return Math.sqrt(x);
-}
-module.exports = { add, substract, multiply };
-module.exports = { squareRoot };
+const add= (a,b)=>a+b;
+const subtract=(a,b)=>a-b;
+const multiply=(a,b)=>a*b;
+const divide=(a,b)=>a/b;
+const squareRoot=(a)=>Math.sqrt(a);
+module.exports ={add,subtract,multiply,divide,squareRoot};
